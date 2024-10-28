@@ -2,3 +2,4 @@ pytest
 pytest-cov
 black
 pylint
+Scrapy==2.11.2

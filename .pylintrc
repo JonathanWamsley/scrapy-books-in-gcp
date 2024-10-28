@@ -1,0 +1,2 @@
+[MASTER]
+ignore-patterns=books/middlewares.py

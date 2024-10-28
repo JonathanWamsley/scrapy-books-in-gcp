@@ -11,7 +11,7 @@ format:
 
 # Lint the code using Pylint
 lint:
-	pylint --disable=R,C src/
+	pylint --disable=R,C --ignore=books/books/middlewares.py src/ books/books
 
 # Run tests with pytest and code coverage
 test:
