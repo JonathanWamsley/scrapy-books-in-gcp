@@ -8,11 +8,3 @@ install:
 # Format the code using Black
 format:
 	black src/ tests/
-
-# Lint the code using Pylint
-lint:
-	pylint --disable=R,C --ignore=books/books/middlewares.py src/ books/books
-
-# Run tests with pytest and code coverage
-test:
-	python -m pytest -vv --cov=tests/

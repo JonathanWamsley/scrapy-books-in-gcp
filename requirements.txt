@@ -35,4 +35,3 @@ urllib3==2.2.3
 w3lib==2.2.1
 zope.interface==7.1.1
 itemadapter
-pylint
